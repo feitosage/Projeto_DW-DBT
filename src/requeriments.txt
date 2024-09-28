@@ -1,0 +1,7 @@
+Bibliotecas
+
+Pandas # manipulação de dados
+sqlachemy # mexe com bancos de dados 
+python-dotenv # variável de ambiente
+psycopg2-binary # driver postgres
+yfinance # dados da yahoo
