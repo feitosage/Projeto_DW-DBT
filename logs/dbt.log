@@ -1,0 +1,94 @@
+[0m15:10:22.773784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024744105580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024746E46C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024746E45BB0>]}
+
+
+============================== 15:10:22.785752 | bc614c5a-449e-4b6d-b0de-2457ac978380 ==============================
+[0m15:10:22.785752 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:10:22.786749 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '../', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:16:08.677309 [debug] [MainThread]: Starter project path: C:\estudo\projetos\dw_teste\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:16:08.707256 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:16:08.710220 [info ] [MainThread]: Setting up your profile.
+[0m15:17:46.172843 [info ] [MainThread]: Profile datawarehouse written to ..\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:17:46.174865 [debug] [MainThread]: Command `dbt init` succeeded at 15:17:46.174865 after 443.64 seconds
+[0m15:17:46.175862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247434699A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024746CAC5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024746E6E600>]}
+[0m15:17:46.176861 [debug] [MainThread]: Flushing usage events
+[0m15:18:05.681151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A70681D070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A704B489B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7065D0F80>]}
+
+
+============================== 15:18:05.685139 | d67ec2fd-3e8e-44b1-822f-70d492e2c046 ==============================
+[0m15:18:05.685139 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:18:05.686136 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '../', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:18:18.852529 [debug] [MainThread]: Starter project path: C:\estudo\projetos\dw_teste\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:18:18.877866 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:18:18.880860 [info ] [MainThread]: Setting up your profile.
+[0m15:18:53.077870 [info ] [MainThread]: Profile datawarehouse written to ..\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:18:53.079866 [debug] [MainThread]: Command `dbt init` succeeded at 15:18:53.079866 after 47.56 seconds
+[0m15:18:53.079866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A706ED10A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A706E6B320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7065D0F80>]}
+[0m15:18:53.080863 [debug] [MainThread]: Flushing usage events
+[0m15:18:58.979865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139A46793A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139A537DAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139A537FAA0>]}
+
+
+============================== 15:18:58.983919 | 4c668aca-c944-4498-badc-01fc869db77b ==============================
+[0m15:18:58.983919 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:18:58.985203 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '../', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:19:02.947556 [info ] [MainThread]: A project called datawarehouse already exists here.
+[0m15:19:02.949580 [debug] [MainThread]: Command `dbt init` succeeded at 15:19:02.948554 after 4.07 seconds
+[0m15:19:02.949580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139A4678140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139A56A8950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139A5564CB0>]}
+[0m15:19:02.950577 [debug] [MainThread]: Flushing usage events
+[0m15:19:16.006416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6139BFE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6139BD5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6139BFE30>]}
+
+
+============================== 15:19:16.011402 | f357ee60-c222-456a-aa55-2146c0fc8526 ==============================
+[0m15:19:16.011402 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:19:16.012401 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '../', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:19:19.036242 [debug] [MainThread]: Starter project path: C:\estudo\projetos\dw_teste\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:19:19.054585 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:19:19.057580 [info ] [MainThread]: Setting up your profile.
+[0m15:20:23.198196 [info ] [MainThread]: Profile datawarehouse written to ..\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:20:23.200190 [debug] [MainThread]: Command `dbt init` succeeded at 15:20:23.200190 after 67.30 seconds
+[0m15:20:23.201187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C61300F680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6132DECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C61013A390>]}
+[0m15:20:23.202184 [debug] [MainThread]: Flushing usage events
